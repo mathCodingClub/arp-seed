@@ -5,10 +5,10 @@ If you are not familiar with Grunt.js or don't want to benefit from it but love 
 
 Just add html5 includes to your and add to your code 
 
-''
+```
 <?php 
   require_once('html5-includes.php');    
 ?>    
-''
+```
 
 And it works.
