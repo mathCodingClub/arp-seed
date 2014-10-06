@@ -17,10 +17,10 @@ app.run(function($rootScope) {
 
 
 app.controller('app', function($rootScope, $location) {
-  
+
   $rootScope.$on("$routeChangeStart", function() {
     // log which page was showed
-    ga('send', 'pageview', {'page': $location.path()});
+    // ga('send', 'pageview', {'page': $location.path()});
     $rootScope.loading = true;
   });
 
