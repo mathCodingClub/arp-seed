@@ -9,12 +9,14 @@
     "app/components/angularjs/angular.min.js",
     "app/components/angular-route/angular-route.min.js",
     "app/components/angular-touch/angular-touch.min.js",
+    "app/components/angular-sanitize/angular-sanitize.min.js",
     "app/components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js",
+    "app/components/angular-filter/dist/angular-filter.min.js",
     "app/components/ngstorage/ngStorage.min.js",
+    "app/components/angular-socialshare/angular-socialshare.min.js",
     "app/components/jquery/dist/jquery.min.js",
-    "app/components/flot/jquery.flot.js",
-    "app/components/flot-axislabels/jquery.flot.axislabels.js",
-    "app/js/main.js",
+    "app/components/jquery-backstretch/jquery.backstretch.min.js",
+    "app/js/*.js",
     "app/js/*/*.js"
   ]
 }
