@@ -13,4 +13,6 @@ git clone https://github.com/mathCodingClub/arp-seed.git
 
 git remote set-url origin git://new.url.here
 
+git push origin master
+
 ```
