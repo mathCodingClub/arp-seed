@@ -1,0 +1,4 @@
+rest/vendor
+rest/composer.lock
+.DS_Store
+app/components

@@ -1,0 +1,25 @@
+{
+  "name": "sj",
+  "version": "0.0.0",
+  "authors": [
+    "Antti Stenvall <antti@stenvall.fi>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/components",
+    "rest"
+  ],
+  "dependencies": {
+    "angularjs": "~1.2.26",
+    "mobile-angular-ui": "~1.1.0-beta.30",
+    "angular-route": "~1.2.26",
+    "angular-touch": "~1.2.26",
+    "jquery": "~2.1.1",
+    "flot": "git://github.com/flot/flot#master",
+    "flot-axislabels": "git://github.com/markrcote/flot-axislabels#master",
+    "ngstorage": "~0.3.0"
+  }
+}

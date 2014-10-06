@@ -1,0 +1,22 @@
+{
+  "repositories": [{
+      "type": "git",
+      "url": "https://github.com/mathCodingClub/slimClass"
+    },
+    {
+      "type": "git",
+      "url": "https://github.com/mathCodingClub/serviceAnnotations"
+    },
+    {
+      "type": "git",
+      "url": "git@bitbucket:mathcodingclub/database"
+    }
+  ],
+  "require": {
+    "slim/slim": "2.*",
+    "doctrine/common": "*",
+    "mathCodingClub/slimClass": "dev-master@dev",
+    "mathCodingClub/serviceAnnotations": "dev-master@dev",
+    "mathCodingClub/database": "dev-master@dev"
+  }
+}
