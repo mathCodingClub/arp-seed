@@ -11,6 +11,10 @@ $jsfun = function($file) {
 };
 
 foreach ($data['css'] as $pattern) {
+    if (strpos($pattern,'://') !== false){
+    $cssfun($pattern);
+    continue;
+  }
   $files = glob($pattern);
   foreach ($files as $file){
     $cssfun($file);
@@ -18,6 +22,10 @@ foreach ($data['css'] as $pattern) {
 }
 
 foreach ($data['js'] as $pattern) {
+    if (strpos($pattern,'://') !== false){
+    $jsfun($pattern);
+    continue;
+  }
   $files = glob($pattern);
   foreach ($files as $file){
     $jsfun($file);
