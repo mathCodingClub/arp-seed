@@ -1,14 +1,14 @@
-var app = angular.module('arp-seed-mobile', [
+var app = angular.module('arp-seed-desktop', [
   "ngRoute",
   "ngTouch",
   "ngStorage",
   "ngSanitize",
   "angular.filter",
-  "mobile-angular-ui"
+  "ui.bootstrap"
 ]);
 
 app.config(function($routeProvider, $locationProvider) {
-  $routeProvider.when('/', {templateUrl: "app/templates/mobile/index.html"});
+  $routeProvider.when('/', {templateUrl: "app/templates/desktop/index.html"});
 });
 
 app.run(function($rootScope) {

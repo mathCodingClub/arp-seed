@@ -1,8 +1,5 @@
 {
   "css": [
-    "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-hover.min.css",
-    "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-base.min.css",
-    "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-desktop.min.css",
     "app/css/*.css"
   ],
   "js": [
@@ -10,13 +7,46 @@
     "app/components/angular-route/angular-route.min.js",
     "app/components/angular-touch/angular-touch.min.js",
     "app/components/angular-sanitize/angular-sanitize.min.js",
-    "app/components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js",
     "app/components/angular-filter/dist/angular-filter.min.js",
     "app/components/ngstorage/ngStorage.min.js",
-    "app/components/angular-socialshare/angular-socialshare.min.js",
-    "app/components/jquery/dist/jquery.min.js",
-    "app/components/jquery-backstretch/jquery.backstretch.min.js",
-    "app/js/*.js",
-    "app/js/*/*.js"
-  ]
+    "app/components/jquery/dist/jquery.min.js"
+  ],
+  "optional": {
+    "fonts": {
+      "css": [
+        "http://fonts.googleapis.com/css?family=Exo:400,500italic"
+      ]
+    },
+    "mobile": {
+      "css": [
+        "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-hover.min.css",
+        "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-base.min.css",
+        "app/components/mobile-angular-ui/dist/css/mobile-angular-ui-desktop.min.css",
+        "app/css/mobile/*.css"
+      ],
+      "js": [
+        "app/components/mobile-angular-ui/dist/js/mobile-angular-ui.min.js",
+        "app/js/main-mobile.js",
+        "app/js/*/mobile/*.js"
+      ]
+    },
+    "desktop": {
+      "css": [
+        "app/css/desktop/*.css",
+        "app/components/bootstrap/dist/css/bootstrap.min.css",
+        "app/components/bootstrap/dist/css/bootstrap-theme.min.css"
+      ],
+      "js": [
+        "app/components/angular-bootstrap/ui-bootstrap-tpls.min.js",
+        "app/components/angular-bootstrap/ui-bootstrap.min.js",
+        "app/js/main-desktop.js",
+        "app/js/*/desktop/*.js"
+      ]
+    },
+    "common": {
+      "js": [
+        "app/js/*/*.js"
+      ]
+    }
+  }
 }

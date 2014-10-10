@@ -1,5 +1,5 @@
 <?php
-setcookie('selectdesktop', 0);
+setcookie('viewas', 'mobile');
 ?><!DOCTYPE html>
 <html>
   <head>
@@ -16,20 +16,18 @@ setcookie('selectdesktop', 0);
 
     <?php
     require_once 'html5-includes.php';
-    html5Includes();
+    html5Includes('html5-includes.json',array('mobile','common'));
     ?>
 
   </head>
   <body ng-app="arp-seed-mobile" ng-controller="app">
 
     <!-- Sidebars -->
-    <div ng-include="'app/templates-mobile/sidebarLeft.html'"
+    <div ng-include="'app/templates/mobile/sidebarLeft.html'"
          class="sidebar sidebar-left" toggleable parent-active-class="sidebar-left-in" id="mainSidebar"></div>
 
-
-    <div ng-include="'app/templates-mobile/sidebarRight.html'"
+    <div ng-include="'app/templates/mobile/sidebarRight.html'"
          class="sidebar sidebar-right" toggleable parent-active-class="sidebar-right-in" id="rightSidebar"></div>
-
 
     <div class="app">
 
@@ -81,6 +79,7 @@ setcookie('selectdesktop', 0);
 
     </div><!-- ~ .app -->
 
+    <!--
     <script>
       (function(i, s, o, g, r, a, m) {
         i['GoogleAnalyticsObject'] = r;
@@ -99,6 +98,7 @@ setcookie('selectdesktop', 0);
       ga('send', 'pageview');
 
     </script>
+    -->
 
   </body>
 </html>

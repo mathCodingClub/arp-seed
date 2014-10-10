@@ -22,6 +22,8 @@
     "jquery-backstretch": "*",
     "angular-sanitize": "~1.2.26",
     "angular-filter": "~0.4.7",
-    "angular-socialshare": "~0.0.2"
+    "angular-socialshare": "~0.0.2",
+    "angular-ui": "~0.4.0",
+    "angular-bootstrap": "~0.11.2"
   }
 }
