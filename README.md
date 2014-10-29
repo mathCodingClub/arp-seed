@@ -15,7 +15,9 @@ git remote set-url origin git://new.url.here
 
 for example:
 
-git remote set-url origin git://https://bitbucket.org/user/project
+git remote set-url origin git@bitbucket.org:user/project.git
+
+git push -u origin --all
 
 git push origin master
 
