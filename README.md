@@ -13,6 +13,10 @@ git clone https://github.com/mathCodingClub/arp-seed.git
 
 git remote set-url origin git://new.url.here
 
+for example:
+
+git remote set-url origin git://https://bitbucket.org/user/project
+
 git push origin master
 
 ```
